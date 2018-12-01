@@ -1,0 +1,29 @@
+body{
+		margin: 0 auto;
+		text-align: center;
+}
+button{
+	color : white;
+}
+input{
+	margin-top: 10px;
+}
+#add{
+	background-color: green;
+	height: 30px;
+	width: 100px;
+}
+.item{
+	margin-bottom: 30px;
+}
+
+.edt{
+	background-color: orange;
+	height: 30px;
+	width: 50px;
+}
+.del{
+	background-color: red;
+	height: 30px;
+	width: 50px;
+}

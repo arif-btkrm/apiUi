@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pcIST Shop</title>
+	<style type="text/css">
+	body{
+		margin: 0 auto;
+		text-align: center;
+	}
+	button{
+		color : white;
+	}
+	.edt{
+		background-color: orange;
+		height: 30px;
+		width: 50px;
+	}
+	.del{
+		background-color: red;
+		height: 30px;
+		width: 50px;
+	}
+	#add{
+		background-color: green;
+		height: 30px;
+		width: 100px;
+	}
+	.item{
+		margin-bottom: 30px;
+	}
+
+	
+	</style>
+</head>
+<body>
+	<a href="index.html"><h1>Welcome to pcIST Shop</h1></a>
+	<form>
+		<input type="text" name="search">
+		<input id="sch" type="button" name="srch" value="Search" onclick="search()">
+	</form><br>
+	<a href="add.html"><button id="add" onclick="add()">Add Item</button></a>
+	<div class="item">
+		<img src="demo.jpg" height="200px" width="200px"><br>
+		<h4>Name : Saban</h4>
+		<h5>Brand : Lux</h5>
+		<h5>Price : 30</h5>
+		<a href="edit.html"><button class="edt" onclick="edit()">Edit</button></a>
+		<button class="del" onclick="delete()">Delete</button>
+	</div>
+	
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
